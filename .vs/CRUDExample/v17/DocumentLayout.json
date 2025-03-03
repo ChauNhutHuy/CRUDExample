@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{329324C7-075F-47BF-92FE-1A2D20CBACAE}|CRUDTests\\CRUDTests.csproj|d:\\projectperson\\learning c#\\crudexample\\crudtests\\countriesservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329324C7-075F-47BF-92FE-1A2D20CBACAE}|CRUDTests\\CRUDTests.csproj|solutionrelative:crudtests\\countriesservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A42023B-82AD-41E1-AACC-99CE4501785E}|ServiceContracts\\ServiceContracts.csproj|d:\\projectperson\\learning c#\\crudexample\\servicecontracts\\icountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A42023B-82AD-41E1-AACC-99CE4501785E}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\icountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15B332B-8697-47B2-9894-882ED79CB355}|Services\\Services.csproj|d:\\projectperson\\learning c#\\crudexample\\services\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15B332B-8697-47B2-9894-882ED79CB355}|Services\\Services.csproj|solutionrelative:services\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25136015-23F7-4AB2-B346-9A6FAD590170}|Entities\\Entities.csproj|d:\\projectperson\\learning c#\\crudexample\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25136015-23F7-4AB2-B346-9A6FAD590170}|Entities\\Entities.csproj|solutionrelative:entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A42023B-82AD-41E1-AACC-99CE4501785E}|ServiceContracts\\ServiceContracts.csproj|d:\\projectperson\\learning c#\\crudexample\\servicecontracts\\dto\\countryaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A42023B-82AD-41E1-AACC-99CE4501785E}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\dto\\countryaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A42023B-82AD-41E1-AACC-99CE4501785E}|ServiceContracts\\ServiceContracts.csproj|d:\\projectperson\\learning c#\\crudexample\\servicecontracts\\dto\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A42023B-82AD-41E1-AACC-99CE4501785E}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\dto\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D661042F-8977-467B-B0D5-5D01B9D3FF04}|CRUDExample\\CRUDExample.csproj|d:\\projectperson\\learning c#\\crudexample\\crudexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D661042F-8977-467B-B0D5-5D01B9D3FF04}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329324C7-075F-47BF-92FE-1A2D20CBACAE}|CRUDTests\\CRUDTests.csproj|d:\\projectperson\\learning c#\\crudexample\\crudtests\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329324C7-075F-47BF-92FE-1A2D20CBACAE}|CRUDTests\\CRUDTests.csproj|solutionrelative:crudtests\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329324C7-075F-47BF-92FE-1A2D20CBACAE}|CRUDTests\\CRUDTests.csproj|d:\\projectperson\\learning c#\\crudexample\\crudtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329324C7-075F-47BF-92FE-1A2D20CBACAE}|CRUDTests\\CRUDTests.csproj|solutionrelative:crudtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D661042F-8977-467B-B0D5-5D01B9D3FF04}|CRUDExample\\CRUDExample.csproj|d:\\projectperson\\learning c#\\crudexample\\crudexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D661042F-8977-467B-B0D5-5D01B9D3FF04}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICountriesService.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ICountriesService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\ICountriesService.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ICountriesService.cs",
+              "RelativeToolTip": "ServiceContracts\\ICountriesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T09:36:30.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUDExample\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUDExample\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:19:35.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountriesServiceTest.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDTests\\CountriesServiceTest.cs",
+              "RelativeDocumentMoniker": "CRUDTests\\CountriesServiceTest.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDTests\\CountriesServiceTest.cs",
+              "RelativeToolTip": "CRUDTests\\CountriesServiceTest.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwDwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:22:26.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CountryService.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\CountryService.cs",
+              "RelativeDocumentMoniker": "Services\\CountryService.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\CountryService.cs",
+              "RelativeToolTip": "Services\\CountryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:44:14.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CountryResponse.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\DTO\\CountryResponse.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\DTO\\CountryResponse.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\DTO\\CountryResponse.cs",
+              "RelativeToolTip": "ServiceContracts\\DTO\\CountryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:18:56.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CountryAddRequest.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "RelativeToolTip": "ServiceContracts\\DTO\\CountryAddRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:39:40.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Country.cs",
+              "RelativeDocumentMoniker": "Entities\\Country.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Country.cs",
+              "RelativeToolTip": "Entities\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:26:59.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyMath.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDTests\\MyMath.cs",
+              "RelativeDocumentMoniker": "CRUDTests\\MyMath.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDTests\\MyMath.cs",
+              "RelativeToolTip": "CRUDTests\\MyMath.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:02:25.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CRUDTests\\UnitTest1.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDTests\\UnitTest1.cs",
+              "RelativeToolTip": "CRUDTests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:01:04.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDExample\\Program.cs",
+              "ToolTip": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\Program.cs",
+              "RelativeToolTip": "CRUDExample\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:46:11.489Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

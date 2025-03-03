@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "VDziuCfuBspjmvTymRRtuzt+cax3lunqTG+vl2ptHrQ=",
+  "Source": "CRUDExample",
+  "BasePath": "_content/CRUDExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUDExample\\wwwroot",
+      "Source": "CRUDExample",
+      "ContentRoot": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "CRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
