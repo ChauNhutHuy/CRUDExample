@@ -4,9 +4,9 @@ var app = builder.Build();
 if(builder.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-}    
+}
 
-app.UseRouting();
 app.UseStaticFiles();
+app.UseRouting();
 app.MapControllers();
 app.Run();
