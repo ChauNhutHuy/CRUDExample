@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CRUDExample/copilot-chat/10425f57/sessions/ce3e12b7-9d17-4d2c-b607-9d680800b391
+*.vsidx
+/.vs/CRUDExample/DesignTimeBuild/.dtbcache.v2
+*.testlog
