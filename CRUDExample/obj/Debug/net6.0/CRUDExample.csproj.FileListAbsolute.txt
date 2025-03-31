@@ -26,31 +26,3 @@ C:\Users\admin\source\repos\CRUDExample\CRUDExample\obj\Debug\net6.0\refint\CRUD
 C:\Users\admin\source\repos\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.pdb
 C:\Users\admin\source\repos\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.genruntimeconfig.cache
 C:\Users\admin\source\repos\CRUDExample\CRUDExample\obj\Debug\net6.0\ref\CRUDExample.dll
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\appsettings.Development.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\appsettings.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\CRUDExample.staticwebassets.runtime.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\CRUDExample.exe
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\CRUDExample.deps.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\CRUDExample.runtimeconfig.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\CRUDExample.dll
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\bin\Debug\net6.0\CRUDExample.pdb
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.GeneratedMSBuildEditorConfig.editorconfig
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.AssemblyInfoInputs.cache
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.AssemblyInfo.cs
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.csproj.CoreCompileInputs.cache
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cache
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.RazorAssemblyInfo.cache
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.RazorAssemblyInfo.cs
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\staticwebassets.build.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\staticwebassets.development.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssets.props
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\staticwebassets\msbuild.build.CRUDExample.props
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CRUDExample.props
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CRUDExample.props
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\staticwebassets.pack.json
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\scopedcss\bundle\CRUDExample.styles.css
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.dll
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\refint\CRUDExample.dll
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.pdb
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\CRUDExample.genruntimeconfig.cache
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDExample\obj\Debug\net6.0\ref\CRUDExample.dll

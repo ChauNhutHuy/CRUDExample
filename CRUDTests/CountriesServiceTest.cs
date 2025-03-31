@@ -9,7 +9,7 @@ namespace CRUDTests
         private readonly ICountriesService _countriesService;
         public CountriesServiceTest()
         {
-            _countriesService = new CountryService();
+            _countriesService = new CountryService(false);
         }
         #region AddCountry
         //when countries are requested, the service should return a list of countries
