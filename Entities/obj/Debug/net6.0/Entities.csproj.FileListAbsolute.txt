@@ -1,0 +1,13 @@
+D:\CRUDExample\CRUDExample\Entities\bin\Debug\net6.0\Entities.deps.json
+D:\CRUDExample\CRUDExample\Entities\bin\Debug\net6.0\Entities.dll
+D:\CRUDExample\CRUDExample\Entities\bin\Debug\net6.0\Entities.pdb
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.sourcelink.json
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.dll
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\refint\Entities.dll
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.pdb
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\ref\Entities.dll
+D:\CRUDExample\CRUDExample\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache

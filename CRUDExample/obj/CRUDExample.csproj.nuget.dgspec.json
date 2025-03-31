@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\CRUDExample.csproj": {}
+    "D:\\CRUDExample\\CRUDExample\\CRUDExample\\CRUDExample.csproj": {}
   },
   "projects": {
-    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\CRUDExample.csproj": {
+    "D:\\CRUDExample\\CRUDExample\\CRUDExample\\CRUDExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\CRUDExample.csproj",
+        "projectUniqueName": "D:\\CRUDExample\\CRUDExample\\CRUDExample\\CRUDExample.csproj",
         "projectName": "CRUDExample",
-        "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\CRUDExample.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\CRUDExample\\obj\\",
+        "projectPath": "D:\\CRUDExample\\CRUDExample\\CRUDExample\\CRUDExample.csproj",
+        "packagesPath": "C:\\Users\\chaun\\.nuget\\packages\\",
+        "outputPath": "D:\\CRUDExample\\CRUDExample\\CRUDExample\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,14 +33,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj"
+              "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj"
               },
-              "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
-                "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj"
+              "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj"
               },
-              "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\Services.csproj": {
-                "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\Services.csproj"
+              "D:\\CRUDExample\\CRUDExample\\Services\\Services.csproj": {
+                "projectPath": "D:\\CRUDExample\\CRUDExample\\Services\\Services.csproj"
               }
             }
           }
@@ -55,6 +59,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -74,21 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj": {
+    "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\obj\\",
+        "projectPath": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\chaun\\.nuget\\packages\\",
+        "outputPath": "D:\\CRUDExample\\CRUDExample\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,6 +135,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -135,21 +163,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
+    "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
+        "projectUniqueName": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
         "projectName": "ServiceContracts",
-        "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\obj\\",
+        "projectPath": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\chaun\\.nuget\\packages\\",
+        "outputPath": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,8 +196,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj"
+              "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj"
               }
             }
           }
@@ -200,21 +232,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\Services.csproj": {
+    "D:\\CRUDExample\\CRUDExample\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\CRUDExample\\CRUDExample\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Services\\obj\\",
+        "projectPath": "D:\\CRUDExample\\CRUDExample\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\chaun\\.nuget\\packages\\",
+        "outputPath": "D:\\CRUDExample\\CRUDExample\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,11 +265,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj"
+              "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj"
               },
-              "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
-                "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj"
+              "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj"
               }
             }
           }
@@ -268,7 +304,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

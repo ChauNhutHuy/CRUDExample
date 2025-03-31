@@ -1,0 +1,16 @@
+D:\CRUDExample\CRUDExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+D:\CRUDExample\CRUDExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+D:\CRUDExample\CRUDExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+D:\CRUDExample\CRUDExample\ServiceContracts\bin\Debug\net6.0\Entities.dll
+D:\CRUDExample\CRUDExample\ServiceContracts\bin\Debug\net6.0\Entities.pdb
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.sourcelink.json
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceC.04662A29.Up2Date
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll
