@@ -14,3 +14,19 @@ D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dl
 D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
 D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
 D:\CRUDExample\CRUDExample\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\bin\Debug\net6.0\Entities.dll
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\bin\Debug\net6.0\Entities.pdb
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.sourcelink.json
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceC.04662A29.Up2Date
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+D:\ProjectPerson\Learning C#\CRUDExample\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll

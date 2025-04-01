@@ -2,6 +2,8 @@
 using ServiceContracts.DTO;
 using Xunit;
 using Services;
+using Entities;
+using Microsoft.EntityFrameworkCore;
 namespace CRUDTests
 {
     public class CountriesServiceTest
@@ -9,7 +11,7 @@ namespace CRUDTests
         private readonly ICountriesService _countriesService;
         public CountriesServiceTest()
         {
-            _countriesService = new CountryService(false);
+            _countriesService = new CountryService(new PersonsDbContext(new DbContextOptionsBuilder<PersonsDbContext>().Options));
         }
         #region AddCountry
         //when countries are requested, the service should return a list of countries

@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
+using Microsoft.EntityFrameworkCore;
 namespace CRUDTests
 {
     public class PersonServiceTest
@@ -21,8 +22,8 @@ namespace CRUDTests
         //contructor
         public PersonServiceTest(ITestOutputHelper testOutputHelper)
         {
-            _personService = new PersonService();
-            _countriesService = new CountryService(false);
+            _countriesService = new CountryService(new PersonsDbContext(new DbContextOptionsBuilder<PersonsDbContext>().Options));
+            _personService = new PersonService(new PersonsDbContext(new DbContextOptionsBuilder<PersonsDbContext>().Options),_countriesService);
             _testOutputHelper = testOutputHelper;
         }
         #region AddPerson

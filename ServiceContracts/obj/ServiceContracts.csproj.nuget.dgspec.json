@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {}
+    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {}
   },
   "projects": {
-    "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj": {
+    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\chaun\\.nuget\\packages\\",
-        "outputPath": "D:\\CRUDExample\\CRUDExample\\Entities\\obj\\",
+        "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\chaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,25 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
+    "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
+        "projectUniqueName": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
         "projectName": "ServiceContracts",
-        "projectPath": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
-        "packagesPath": "C:\\Users\\chaun\\.nuget\\packages\\",
-        "outputPath": "D:\\CRUDExample\\CRUDExample\\ServiceContracts\\obj\\",
+        "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\chaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\CRUDExample\\CRUDExample\\Entities\\Entities.csproj"
+              "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj"
               }
             }
           }
@@ -146,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
