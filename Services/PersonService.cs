@@ -41,16 +41,17 @@ namespace Services
 
             Person person = personAddRequest.ToPerson();
 
-            person.PersonID = Guid.NewGuid();  
-            _db.sp_InsertPerson(person);
-            //_db.Add(person);
-            //_db.SaveChanges();
+            person.PersonID = Guid.NewGuid();
+            //_db.sp_InsertPerson(person);
+            _db.Add(person);
+            _db.SaveChanges();
             return ConvertPersonToPersonResponse(person);
         }
 
         public List<PersonResponse> GetAllPersons()
         {
-            return _db.sp_GetAllPersons().Select(x => ConvertPersonToPersonResponse(x)).ToList();
+            return _db.Persons.ToList().Select(x => ConvertPersonToPersonResponse(x)).ToList();
+            //return _db.sp_GetAllPersons().Select(x => ConvertPersonToPersonResponse(x)).ToList();
         }
 
         public PersonResponse GetPersonByPersonID(Guid? personID)
