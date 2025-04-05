@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Microsoft.EntityFrameworkCore;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using System.Security.Cryptography;
@@ -13,7 +14,7 @@ namespace Services
         {
            _db = dbContext;
         }
-        public CountryResponse AddCountry(CountryAddRequest? countryAddRequest)
+        public async Task<CountryResponse> AddCountry(CountryAddRequest? countryAddRequest)
         {
             //Validation: countryAddRequest isn't null
             if(countryAddRequest == null)
@@ -27,29 +28,29 @@ namespace Services
             Country country = countryAddRequest.ToCountry();
 
             // validation: CountryName can't be duplicate
-            if(_db.Countries.Where(x => x.CountryName == countryAddRequest.CountryName).Count() > 0)
+            if(await _db.Countries.Where(x => x.CountryName == countryAddRequest.CountryName).CountAsync() > 0)
             {
                 throw new ArgumentException("Given country name already exits");
             }    
             //generate CountryID
             country.CountryID = Guid.NewGuid();
-            _db.Countries.Add(country);
-            _db.SaveChanges();
+            await _db.Countries.AddAsync(country);
+            await _db.SaveChangesAsync();
             return country.ToCountryResponse();
         }
 
-        public List<CountryResponse> GetAllCountries()
+        public async Task<List<CountryResponse>> GetAllCountries()
         {
            return _db.Countries.Select(country =>  country.ToCountryResponse()).ToList();
         }
 
-        public CountryResponse? GetCountryByCountryID(Guid? countryID)
+        public async Task<CountryResponse?> GetCountryByCountryID(Guid? countryID)
         {
             if (countryID == null)
             {
                 return null;
             }
-            var country_response_from_list = _db.Countries.FirstOrDefault(temp => temp.CountryID == countryID);
+            var country_response_from_list =await _db.Countries.FirstOrDefaultAsync(temp => temp.CountryID == countryID);
             if(country_response_from_list == null)
             {
                 return null;
