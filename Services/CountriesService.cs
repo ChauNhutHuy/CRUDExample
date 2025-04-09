@@ -1,18 +1,19 @@
 ﻿using Entities;
 using Microsoft.EntityFrameworkCore;
+using RepositoryContracts;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using System.Security.Cryptography;
 
 namespace Services
 {
-    public class CountryService: ICountriesService
+    public class CountriesService: ICountriesService
     {
         // private field
-        private readonly PersonsDbContext _db;
-        public CountryService(PersonsDbContext dbContext)
+        private readonly ICountriesRepository _countriesRepository;
+        public CountriesService(ICountriesRepository countriesRepository)
         {
-           _db = dbContext;
+           _countriesRepository = countriesRepository;
         }
         public async Task<CountryResponse> AddCountry(CountryAddRequest? countryAddRequest)
         {
@@ -28,20 +29,22 @@ namespace Services
             Country country = countryAddRequest.ToCountry();
 
             // validation: CountryName can't be duplicate
-            if(await _db.Countries.Where(x => x.CountryName == countryAddRequest.CountryName).CountAsync() > 0)
+            if(await _countriesRepository.GetCountryByCountryID(country.CountryID) != null)
             {
                 throw new ArgumentException("Given country name already exits");
             }    
             //generate CountryID
             country.CountryID = Guid.NewGuid();
-            await _db.Countries.AddAsync(country);
-            await _db.SaveChangesAsync();
+            await _countriesRepository.AddCountry(country);
+           
             return country.ToCountryResponse();
         }
 
         public async Task<List<CountryResponse>> GetAllCountries()
         {
-           return _db.Countries.Select(country =>  country.ToCountryResponse()).ToList();
+           var countries = await _countriesRepository.GetAllCountries();
+           
+            return countries.Select(x => x.ToCountryResponse()).ToList();
         }
 
         public async Task<CountryResponse?> GetCountryByCountryID(Guid? countryID)
@@ -50,7 +53,7 @@ namespace Services
             {
                 return null;
             }
-            var country_response_from_list =await _db.Countries.FirstOrDefaultAsync(temp => temp.CountryID == countryID);
+            var country_response_from_list = await _countriesRepository.GetCountryByCountryID(countryID.Value);
             if(country_response_from_list == null)
             {
                 return null;

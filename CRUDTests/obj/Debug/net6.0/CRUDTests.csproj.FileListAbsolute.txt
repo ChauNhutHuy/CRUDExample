@@ -146,16 +146,19 @@ D:\CRUDExample\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\netstanda
 D:\CRUDExample\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\CRUDExample\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\CoverletSourceRootsMapping
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\testhost.exe
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\testhost.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\testhost.exe
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
-D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\CRUDTests.deps.json
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\CRUDTests.runtimeconfig.json
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\CRUDTests.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\CRUDTests.pdb
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Castle.Core.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\EntityFrameworkCoreMock.Moq.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\EntityFrameworkCoreMock.Shared.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -184,9 +187,11 @@ D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.Te
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Moq.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\NuGet.Frameworks.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\System.Runtime.Caching.dll
@@ -269,6 +274,8 @@ D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
@@ -292,3 +299,8 @@ D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\obj\Debug\net6.0\refint\CRUDT
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\obj\Debug\net6.0\CRUDTests.pdb
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\obj\Debug\net6.0\CRUDTests.genruntimeconfig.cache
 D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\obj\Debug\net6.0\ref\CRUDTests.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\AutoFixture.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\Fare.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\FluentAssertions.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\RepositoryContracts.dll
+D:\ProjectPerson\Learning C#\CRUDExample\CRUDTests\bin\Debug\net6.0\RepositoryContracts.pdb

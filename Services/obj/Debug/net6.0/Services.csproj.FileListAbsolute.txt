@@ -34,3 +34,5 @@ D:\ProjectPerson\Learning C#\CRUDExample\Services\obj\Debug\net6.0\Services.dll
 D:\ProjectPerson\Learning C#\CRUDExample\Services\obj\Debug\net6.0\refint\Services.dll
 D:\ProjectPerson\Learning C#\CRUDExample\Services\obj\Debug\net6.0\Services.pdb
 D:\ProjectPerson\Learning C#\CRUDExample\Services\obj\Debug\net6.0\ref\Services.dll
+D:\ProjectPerson\Learning C#\CRUDExample\Services\bin\Debug\net6.0\RepositoryContracts.dll
+D:\ProjectPerson\Learning C#\CRUDExample\Services\bin\Debug\net6.0\RepositoryContracts.pdb

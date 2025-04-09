@@ -748,6 +748,19 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
+      "RepositoryContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RepositoryContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepositoryContracts.dll": {}
+        }
+      },
       "ServiceContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1930,6 +1943,11 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
+    "RepositoryContracts/1.0.0": {
+      "type": "project",
+      "path": "../RepositoryContracts/RepositoryContracts.csproj",
+      "msbuildProject": "../RepositoryContracts/RepositoryContracts.csproj"
+    },
     "ServiceContracts/1.0.0": {
       "type": "project",
       "path": "../ServiceContracts/ServiceContracts.csproj",
@@ -1938,7 +1956,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Entities >= 1.0.0",
+      "RepositoryContracts >= 1.0.0",
       "ServiceContracts >= 1.0.0"
     ]
   },
@@ -1970,8 +1988,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\Entities\\Entities.csproj"
+            "D:\\ProjectPerson\\Learning C#\\CRUDExample\\RepositoryContracts\\RepositoryContracts.csproj": {
+              "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\RepositoryContracts\\RepositoryContracts.csproj"
             },
             "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj": {
               "projectPath": "D:\\ProjectPerson\\Learning C#\\CRUDExample\\ServiceContracts\\ServiceContracts.csproj"
