@@ -17,26 +17,33 @@ namespace Services
         }
         public async Task<CountryResponse> AddCountry(CountryAddRequest? countryAddRequest)
         {
-            //Validation: countryAddRequest isn't null
-            if(countryAddRequest == null)
+            //Validation: countryAddRequest parameter can't be null
+            if (countryAddRequest == null)
             {
                 throw new ArgumentNullException(nameof(countryAddRequest));
             }
-            if(countryAddRequest.CountryName == null)
+
+            //Validation: CountryName can't be null
+            if (countryAddRequest.CountryName == null)
             {
                 throw new ArgumentException(nameof(countryAddRequest.CountryName));
-            }    
+            }
+
+            //Validation: CountryName can't be duplicate
+            if (await _countriesRepository.GetCountryByCountryName(countryAddRequest.CountryName) != null)
+            {
+                throw new ArgumentException("Given country name already exists");
+            }
+
+            //Convert object from CountryAddRequest to Country type
             Country country = countryAddRequest.ToCountry();
 
-            // validation: CountryName can't be duplicate
-            if(await _countriesRepository.GetCountryByCountryID(country.CountryID) != null)
-            {
-                throw new ArgumentException("Given country name already exits");
-            }    
             //generate CountryID
             country.CountryID = Guid.NewGuid();
+
+            //Add country object into _countries
             await _countriesRepository.AddCountry(country);
-           
+
             return country.ToCountryResponse();
         }
 

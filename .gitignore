@@ -20,7 +20,18 @@ bin/
 obj/
 # Mono auto generated files
 mono_crash.*
+# Bỏ qua các tệp tạm của Visual Studio
+*.suo
+*.user
+.vs/
 
+# Bỏ qua thư mục build output
+bin/
+obj/
+
+# Bỏ qua các tệp cấu hình khác
+*.cache
+*.log
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

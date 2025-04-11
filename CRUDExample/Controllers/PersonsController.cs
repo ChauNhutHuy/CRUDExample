@@ -12,25 +12,29 @@ namespace CRUDExample.Controllers
         //private field
         private readonly IPersonsService _personsService;
         private readonly ICountriesService _countriesService;
-        public PersonsController(IPersonsService personsService, ICountriesService countriesService)
+        private readonly ILogger<PersonsController> _logger;
+        public PersonsController(IPersonsService personsService, ICountriesService countriesService, ILogger<PersonsController> logger)
         {
             _personsService = personsService;
             _countriesService = countriesService;
+            _logger = logger;
         }
         [Route("[action]")]
         [Route("/")]
         public async Task<IActionResult> Index(string searchBy, string? searchString, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder = SortOrderOptions.ASC)
         {
+            _logger.LogInformation("Index action method of PersonsController");
+            _logger.LogDebug($"searchBy {searchBy} {searchString} {sortBy}");
             //Search
             ViewBag.SearchFields = new Dictionary<string, string>()
-      {
-        { nameof(PersonResponse.PersonName), "Person Name" },
-        { nameof(PersonResponse.Email), "Email" },
-        { nameof(PersonResponse.DateOfBirth), "Date of Birth" },
-        { nameof(PersonResponse.Gender), "Gender" },
-        { nameof(PersonResponse.CountryID), "Country" },
-        { nameof(PersonResponse.Address), "Address" }
-      };
+              {
+                { nameof(PersonResponse.PersonName), "Person Name" },
+                { nameof(PersonResponse.Email), "Email" },
+                { nameof(PersonResponse.DateOfBirth), "Date of Birth" },
+                { nameof(PersonResponse.Gender), "Gender" },
+                { nameof(PersonResponse.CountryID), "Country" },
+                { nameof(PersonResponse.Address), "Address" }
+              };
             List<PersonResponse> persons = await _personsService.GetFilteredPersons(searchBy, searchString);
             ViewBag.CurrentSearchBy = searchBy;
             ViewBag.CurrentSearchString = searchString;
