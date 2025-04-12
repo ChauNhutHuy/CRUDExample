@@ -10,6 +10,8 @@ namespace CRUDExample.Filters.ActionFilters
     {
         private readonly ICountriesService _countriesService;
         private readonly ILogger<PersonCreateAndEditPostActionFilter> _logger;
+
+
         public PersonCreateAndEditPostActionFilter(ICountriesService countriesService, ILogger<PersonCreateAndEditPostActionFilter> logger)
         {
             _countriesService = countriesService;
@@ -44,8 +46,8 @@ namespace CRUDExample.Filters.ActionFilters
                 await next(); //calls the subsequent filter or action method
             }
 
-            //TO DO: before logic
-            _logger.LogInformation("In after logic of personsCreateAndUpdate");
+            //TO DO: after logic
+            _logger.LogInformation("In after logic of PersonsCreateAndEdit Action filter");
         }
     }
 }

@@ -14,10 +14,9 @@ using ServiceContracts.Enums;
 namespace CRUDExample.Controllers
 {
     [Route("[controller]")]
-    //[TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-Key-From-Controller", "My-Value-From-Controller", 3 }, Order = 3)]
 
     [ResponseHeaderFilterFactory("My-Key-From-Controller", "My-Value-From-Controller", 3)]
-    [TypeFilter(typeof(HandleExceptionFilter))]
+    //[TypeFilter(typeof(HandleExceptionFilter))]
     [TypeFilter(typeof(PersonAlwaysRunResultFilter))]
     public class PersonsController : Controller
     {
@@ -38,8 +37,6 @@ namespace CRUDExample.Controllers
         [Route("[action]")]
         [Route("/")]
         [ServiceFilter(typeof(PersonsListActionFilter), Order = 4)]
-
-        //[TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "MyKey-FromAction", "MyValue-From-Action", 1 }, Order = 1)]
 
         [ResponseHeaderFilterFactory("MyKey-FromAction", "MyValue-From-Action", 1)]
 
@@ -97,7 +94,7 @@ namespace CRUDExample.Controllers
 
         [HttpGet]
         [Route("[action]/{personID}")] //Eg: /persons/edit/1
-                                       //[TypeFilter(typeof(TokenResultFilter))]
+        [TypeFilter(typeof(TokenResultFilter))]
         public async Task<IActionResult> Edit(Guid personID)
         {
             PersonResponse? personResponse = await _personsService.GetPersonByPersonID(personID);
@@ -129,6 +126,7 @@ namespace CRUDExample.Controllers
                 return RedirectToAction("Index");
             }
 
+            //personRequest.PersonID = Guid.NewGuid();
             PersonResponse updatedPerson = await _personsService.UpdatePerson(personRequest);
             return RedirectToAction("Index");
         }
