@@ -8,8 +8,6 @@ using Serilog;
 using CRUDExample.Filters.ActionFilters;
 using CRUDExample;
 using CRUDExample.Middleware;
-using CRUDExample.StartUpExtentions;
-
 var builder = WebApplication.CreateBuilder(args);
 
 //Serilog

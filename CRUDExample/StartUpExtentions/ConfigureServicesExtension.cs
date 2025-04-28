@@ -6,13 +6,15 @@ using RepositoryContracts;
 using ServiceContracts;
 using Services;
 
-namespace CRUDExample.StartUpExtentions
+namespace CRUDExample
 {
     public static class ConfigureServicesExtension
     {
         public static IServiceCollection ConfigureServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddTransient<ResponseHeaderActionFilter>();
+
+            //it adds controllers and views as services
             services.AddControllersWithViews(options => {
                 //options.Filters.Add<ResponseHeaderActionFilter>(5);
 
@@ -30,8 +32,14 @@ namespace CRUDExample.StartUpExtentions
             services.AddScoped<ICountriesRepository, CountriesRepository>();
             services.AddScoped<IPersonsRepository, PersonsRepository>();
 
-            services.AddScoped<ICountriesService, CountriesService>();
-            services.AddScoped<IPersonsService, PersonsService>();
+            services.AddScoped<ICountriesGetterService, CountriesGetterService>();
+            services.AddScoped<ICountriesAdderService, CountriesAdderService>();
+
+            services.AddScoped<IPersonsGetterService, PersonsGetterService>();
+            services.AddScoped<IPersonsAdderService, PersonsAdderService>();
+            services.AddScoped<IPersonsDeleterService, PersonsDeleterService>();
+            services.AddScoped<IPersonsUpdaterService, PersonsUpdaterService>();
+            services.AddScoped<IPersonsSorterService, PersonsSorterService>();
 
             services.AddDbContext<ApplicationDbContext>(options =>
             {
@@ -46,6 +54,6 @@ namespace CRUDExample.StartUpExtentions
             });
 
             return services;
-        } 
+        }
     }
 }

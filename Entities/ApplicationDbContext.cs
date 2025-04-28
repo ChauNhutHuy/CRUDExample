@@ -71,7 +71,7 @@ namespace Entities
                 new SqlParameter("@Gender", person.Gender),
                 new SqlParameter("@CountryID", person.CountryID),
                 new SqlParameter("@Address", person.Address),
-                new SqlParameter("@ReceiveNewsLetters", person.ReceiveNewsLetters)
+                new SqlParameter("@ReceiveNewsLetters", person.ReceiveNewsLetters) 
             };
             return Database.ExecuteSqlRaw("EXECUTE [dbo].[InsertPerson] @PersonID, @PersonName, @Email, @DateOfBirth, @Gender, @CountryID, @Address, @ReceiveNewsLetters", parameters);
         }
